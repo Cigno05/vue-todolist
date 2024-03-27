@@ -1,0 +1,40 @@
+/*HEADER*/
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    height: 60px;
+    margin-bottom: 24px;
+    
+}
+
+
+/*MAIN*/
+
+.card-header {
+    background-color: cornflowerblue;
+    color: white;
+}
+.card-header input {
+    width: 100%;
+    border: none;
+    margin: 24px 0;
+    padding: 12px 6px;
+    border-radius: 12px;
+}
+
+.card-body li {
+    cursor: pointer;
+}
+
+.list-done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+
+
+
+
+
