@@ -43,10 +43,12 @@
 
                 <li 
                   @click="toDoDone(i)"
-                  v-for="(toDoItem,i) in toDoArray" class="todo-item"
-                  :class="{'list-done': toDoItem.done === true}"
+                  v-for="(toDoItem,i) in toDoArray" class="todo-item d-flex justify-content-between"
+                  
                 >
-                  <h3>{{ toDoItem.text }}</h3>
+                  <h3 :class="{'list-done': toDoItem.done === true}">{{ toDoItem.text }}</h3>
+                  <h2 @click="eraseToDo(i)"
+                  >X</h2>
                 </li>
                 
               </ul>

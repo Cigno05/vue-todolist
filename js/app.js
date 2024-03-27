@@ -43,6 +43,9 @@ const { createApp } = Vue
         console.log(this.toDoArray[i].done)
         
       },
+      eraseToDo(i) {
+        this.toDoArray.splice(i,1)
+      }
     },
     
   }).mount('#app')
