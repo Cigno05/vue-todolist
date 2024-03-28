@@ -5,20 +5,7 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        toDoArray: [
-          {
-            text: 'Fare colazione',
-            done: false
-          },
-          {
-            text: 'Vestirsi',
-            done: false
-          },
-          {
-            text: 'Uscire di casa',
-            done: false
-          }
-        ],
+        toDoArray: [],
         inputText:'',
         listDone: false
       }
@@ -40,7 +27,7 @@ const { createApp } = Vue
       },
       toDoDone(i) {
         this.toDoArray[i].done = true
-        console.log(this.toDoArray[i].done)
+        // console.log(this.toDoArray[i].done)
         
       },
       eraseToDo(i) {

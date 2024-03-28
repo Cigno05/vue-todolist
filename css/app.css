@@ -20,7 +20,7 @@ header {
     border: none;
     margin: 24px 0;
     padding: 12px 6px;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .card-body li {
@@ -31,6 +31,8 @@ header {
     text-decoration: line-through;
     color: gray;
 }
+
+
 
 
 
